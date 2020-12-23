@@ -1,4 +1,4 @@
-package org.alexander.model;
+package org.victor.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,27 +11,27 @@ import javax.persistence.Table;
  * This is our model class and it corresponds to Country table in database
  */
 @Entity
-@Table(name="COUNTRY")
-public class Country{
+@Table(name="Building")
+public class Building{
 
  @Id
  @Column(name="id")
  @GeneratedValue(strategy=GenerationType.IDENTITY)
  int id;
 
- @Column(name="countryName")
- String countryName;
+ @Column(name="BuildingName")
+ String BuildingName;
 
- @Column(name="population")
+ @Column(name="opt")
  long population;
 
- public Country() {
+ public Building() {
   super();
  }
- public Country(int i, String countryName,long population) {
+ public Building(int i, String countryName,long population) {
   super();
   this.id = i;
-  this.countryName = countryName;
+  this.BuildingName = countryName;
   this.population=population;
  }
  public int getId() {
@@ -40,8 +40,8 @@ public class Country{
  public void setId(int id) {
   this.id = id;
  }
- public String getCountryName() {
-  return countryName;
+ public String getBuilding() {
+  return buildingName;
  }
  public void setCountryName(String countryName) {
   this.countryName = countryName;

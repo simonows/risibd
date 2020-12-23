@@ -1,4 +1,4 @@
-package org.alexander;
+package org.victor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

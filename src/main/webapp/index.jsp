@@ -44,22 +44,22 @@
           </thead>
           <tbody>
               <tr class="table-success">
-                <td><a href="shtudy.org">Приволжский</a></td>
+                <td><a href="1">Приволжский</a></td>
               </tr>
               <tr class="table-success">
-                <td>Северо-Западный</td>
+                <td><a href="2">Северо-Западный</a></td>
               </tr>
               <tr class="table-success">
-                <td>Сибирский</td>
+                <td><a href="3">Сибирский</a></td>
               </tr>
               <tr class="table-success">
-                <td>Уральский</td>
+                <td><a href="4">Уральский</a></td>
               </tr>
               <tr class="table-success">
-                <td>Центральный</td>
+                <td><a href="5">Центральный</a></td>
               </tr>
               <tr class="table-success">
-                <td>Южный</td>
+                <td><a href="6">Южный</a></td>
               </tr>
           </tbody>
         </table>

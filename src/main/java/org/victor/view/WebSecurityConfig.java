@@ -1,4 +1,4 @@
-package org.alexander.view;
+package org.victor.view;
 
 import org.alexander.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

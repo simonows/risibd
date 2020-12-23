@@ -1,6 +1,6 @@
-package org.alexander.controller;
+package org.victor.controller;
 
-import org.alexander.service.UserService;
+import org.victor.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

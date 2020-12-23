@@ -1,4 +1,4 @@
-package org.alexander.model;
+package org.victor.model;
 
 import org.springframework.security.core.GrantedAuthority;
 
